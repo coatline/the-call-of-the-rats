@@ -1,12 +1,12 @@
 class_name DialogueData
 
-var speaking : String
-var quote : String
-var set_cam_pos : bool
-var cam_x : float
-var cam_y : float
-var emotion : String
-var unskippable : bool
+var speaking: String
+var quote: String
+var set_cam_pos: bool
+var cam_x: float
+var cam_y: float
+var emotion: String
+var unskippable: bool
 
 func _init(json_dict):
 	speaking = json_dict["speaking"]
